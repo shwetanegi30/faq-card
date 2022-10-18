@@ -1,0 +1,153 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 750px;
+    height: 420px;
+    border-radius: 20px;
+}
+hr{
+    margin: 13px 0 13px 0;
+    border: none;
+    height: .8px;
+    color: #D3D3D3; 
+    background-color: #D3D3D3;
+    width: 89%;
+}
+.heading{
+    
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.heading-1{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color:  hsl(237, 12%, 33%);
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.close{
+    transform: rotate(180deg);
+}
+.heading-1:hover{
+    cursor: pointer;
+    color: hsl(14, 88%, 65%);
+}
+.sub-heading-1{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.5;
+    color:  hsl(240, 6%, 50%);
+    padding: 10px 38px 0 0;
+}
+.left-side{
+    max-width: 390px;
+}
+.right-side{
+    padding-top: 40px;
+    padding-right: 25px;
+  }
+.bg-women{
+    position: absolute;
+    top: 31%;
+    left: 66%;
+}
+.bg-women > svg{
+    width: 385px;
+    height: auto;
+}
+.bg-box{
+    position: absolute;
+    top: 49%;
+    left: 55%;
+}
+.bg-box > svg{
+    height: auto;
+    width: 155px;
+}
+.bg-pattern{
+    left: -322px;
+    position: relative;
+    top: -18px;
+}
+.bg-pattern > svg{
+    width: 650px;
+    height: auto;
+}
+.Bold{
+    font-weight: 700;
+}
+.arrow{
+    margin-right: 50px;
+}
+
+
+@media screen and (max-width:800px) {
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 310px;
+        height: 495px;
+        border-radius: 25px;
+    }
+    .right-side{
+        margin: 0;
+        text-align: center;
+    }
+    .left-side{
+        max-height: 83px;
+    }
+    .heading{
+        padding-left: 10px;
+    }
+    .heading-1{
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    .sub-heading-1{
+        padding-left: 20px;
+        text-align: left;
+    }
+    hr{
+    
+        width: 91%;
+        margin: 12px 0 12px 20px;
+    }
+    .arrow{
+        margin-right: 5px;
+    }
+}
+    @media screen and (max-width:800px) {
+        .bg-pattern > svg{
+            width: 240px!important;
+                
+        }
+        .bg-pattern{
+            top: -156px;
+            left: -1px;
+        }
+        .bg-women > svg{
+            width: 220px!important;
+            
+        }
+        .bg-women {
+             top: 11%;
+             left: 4%;
+      }
+      .bg-box > svg{
+        width: 90px;
+      }
+      .bg-box{
+        top: 38%;
+        left: 0%;
+      }
+      }
+    
